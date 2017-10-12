@@ -1,2 +1,2 @@
 # currency-react-project
-App de prueba usando reac-native
+App de prueba usando react-native
