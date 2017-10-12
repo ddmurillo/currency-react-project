@@ -1,0 +1,3 @@
+rootProject.name = 'Currency2'
+
+include ':app'
