@@ -5,9 +5,19 @@
  */
 
 import React from 'react';
-import Home from './screens/home';
+// import Home from './screens/home';
+// import CurrencyList from './screens/CurrencyList';
+// import Options from './screens/Options';
+// import Themes from './screens/Themes';
 
-export default () => <Home />;
+import Navigator from './config/routes';
+import { AlertProvider } from './components/Alert';
+
+export default () => (
+  <AlertProvider>
+    <Navigator />
+  </AlertProvider>
+);
 
 // import { Platform, StyleSheet, Text, View } from 'react-native';
 
